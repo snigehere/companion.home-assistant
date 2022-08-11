@@ -82,9 +82,10 @@ To fix this change the location permission for the Home Assistant App to "Always
 
 1.  Check that Home Assistant Core, the [Android app](https://play.google.com/store/apps/details?id=io.homeassistant.companion.android) and [Android System WebView](https://play.google.com/store/apps/details?id=com.google.android.webview) are up to date.
 2.  Clear Storage or App data in Android app. Do not assume it is safe to uninstall and reinstall as that triggers auto-backup which we are trying to avoid here.
-3.  In Home Assistant navigate to the [Integrations Dashboard](https://my.home-assistant.io/redirect/integrations/). Remove the mobile app entry for the device in question. If you see more than 1 remove them all.
-4.  Restart Home Assistant.
-5.  Log back into the Android app. If you have more than 1 device, make sure to rename the device during onboarding.
+3.  On the app, from the left menu, click into your profile choose Log out to logout from the app.
+4.  In Home Assistant navigate to the [Integrations Dashboard](https://my.home-assistant.io/redirect/integrations/). Remove the mobile app entry for the device in question. If you see more than 1 remove them all.
+5.  Restart Home Assistant.
+6.  Log back into the Android app. If you have more than 1 device, make sure to rename the device during onboarding.
 
 
 ## Device Tracker is not updating in Android app
